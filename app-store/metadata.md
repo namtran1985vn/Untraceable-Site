@@ -35,7 +35,9 @@ metadata,exif,remover,gps,location,privacy,strip,geotag,watermark,leak,trace,ser
 
 Share the picture, not what's hidden in the file.
 
-Phones and editing apps write details into every photo and video: where it was taken, which phone and lens, serial numbers, the date and time, your name, and extra tracks inside videos. Untraceable makes a clean copy before you post or send it. Everything runs on your iPhone. The picture and sound stay the same.
+Phones and editing apps write details into every photo and video: where it was taken, which phone and lens, serial numbers, the date and time, your name, and extra tracks inside videos. Untraceable makes a clean copy before you post or send it. Everything runs on your iPhone. The picture and sound stay the same. Unlike a screenshot, the copy is full quality, and it works on video.
+
+Files sent by email, by link or as a document arrive unchanged, with everything inside them. A clean copy has nothing hidden to carry.
 
 WHAT GETS REMOVED
 • Location and capture time, including location tracks in videos
@@ -57,12 +59,13 @@ NOTHING LEAVES YOUR IPHONE
 
 UNTRACEABLE PRO
 Cleaning one item at a time is free, with every removal included. Pro adds:
-• Per-buyer mark: a random code tiled across the picture for one recipient. If a copy leaks, type the code to see who it was made for. The recipient list stays on your iPhone.
-• Device unlinking: normalises size and softens sensor noise, making it harder to link two files to the same phone.
+• Per-buyer mark: pick one clip and tick the people it's for. Each gets their own copy with their own random code. If a copy leaks, type the code to see who it was made for. The recipient list stays on your iPhone.
+• Proof card and leaker flag: a matched code gives you a card to screenshot for a report, and a flag that warns you before you make that person another copy.
 • Batch cleaning: clean a whole set in one go.
+• Device unlinking: normalises size and softens sensor noise, making it harder to link two files to the same phone.
 
 HONEST LIMITS
-A clean copy still looks like it was encoded on an iPhone. Reverse-image search can still match the picture. Device unlinking reduces the link to your phone; it can't remove it. A visible mark can be cropped or covered. And the app can't change traces outside the file: the account you post from, your IP address, your AirDrop name, or posting the same file twice.
+A clean copy still looks like it was encoded on an iPhone. Reverse-image search can still match the picture, a background can be matched to other photos of the same place, and face search can find you in other photos. Device unlinking reduces the link to your phone; it can't remove it. A visible mark can be cropped or covered, and its code shows who received a copy, not who posted it. And the app can't change traces outside the file: the account you post from, names on payments and wish lists, posting while you're still at a place, posting the same file twice, your IP address, or your AirDrop name.
 
 Only clean content you own or have the right to share.
 
@@ -80,7 +83,7 @@ Privacy Policy: https://namtran1985vn.github.io/Untraceable-Site/privacy/
 | Product ID | `untraceable.pro.annual` | `untraceable.pro.monthly` |
 | Reference name | Pro Annual | Pro Monthly |
 | Display name | Untraceable Pro Yearly | Untraceable Pro Monthly |
-| Description (45) | Mark per buyer, unlinking and batch cleaning | Mark per buyer, unlinking and batch cleaning |
+| Description (45) | Mark per buyer, batch cleaning and unlinking | Mark per buyer, batch cleaning and unlinking |
 | Intro offer | Free trial *[length to decide]* | — |
 | Price | *[to decide]* | *[to decide]* |
 
