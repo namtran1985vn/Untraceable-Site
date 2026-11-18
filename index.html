@@ -1,0 +1,157 @@
+---
+title: Clean photos & videos before you post
+description: "Untraceable makes a clean copy of a photo or video on your iPhone: location, device details, dates, names and extra tracks removed. Picture and sound stay the same."
+layout_style: landing
+permalink: /
+---
+{% capture store %}{% if site.app_store_url != "" %}<a class="button" href="{{ site.app_store_url }}">Download on the App Store</a>{% else %}<span class="button soon">Coming soon to the App Store</span>{% endif %}{% endcapture %}
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">For creators</span>
+        <h1>Share the picture. Not what's hidden in the file.</h1>
+        <p class="lead">Untraceable makes a clean copy of a photo or video before you post or send it. Location, phone model, serial numbers, capture dates, names and extra tracks are removed on your iPhone. The picture and sound stay the same.</p>
+        <div class="actions">
+          {{ store }}
+          <a class="button light" href="#how">How it works</a>
+        </div>
+        <p class="trust">Runs only on your iPhone. No account. Nothing is uploaded, and nothing is kept after you finish.</p>
+      </div>
+      <div class="hero-art">
+        <img src="{{ '/assets/art/clean-darkroom.jpg' | relative_url }}" width="850" height="479" alt="Illustration of a creator lifting a clean print out of a developing tray in a darkroom">
+      </div>
+    </div>
+  </section>
+
+  <section class="band white" id="removed">
+    <div class="wrap">
+      <div class="eyebrow">What gets removed</div>
+      <h2>A photo carries more than the picture.</h2>
+      <p class="intro">Phones and editing apps write details into every file. Untraceable rebuilds the file from the picture and sound alone, so those details are not carried over.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Location and capture time</h3>
+          <p>GPS coordinates, altitude, the date and time a photo was taken, and location tracks inside videos.</p>
+        </article>
+        <article class="card">
+          <h3>Phone, lens and serial numbers</h3>
+          <p>Make and model, lens details, camera serial numbers and the software version that saved the file.</p>
+        </article>
+        <article class="card">
+          <h3>Names and linking IDs</h3>
+          <p>Owner and author names, captions, editing data, and the IDs that tie a file to its Live Photo, burst or editing project.</p>
+        </article>
+        <article class="card">
+          <h3>Hidden extras</h3>
+          <p>Embedded previews, depth data, content credentials and maker notes that most viewers never show.</p>
+        </article>
+        <article class="card">
+          <h3>Extra video tracks</h3>
+          <p>A clean video keeps one picture track and one sound track. Subtitle, location and other tracks are dropped; track names and container dates are blanked.</p>
+        </article>
+        <article class="card">
+          <h3>File name and dates</h3>
+          <p>Camera numbering like IMG_4821 becomes a neutral name like photo-7f3a9c.jpg, and the file's own dates are reset.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="how">
+    <div class="wrap">
+      <div class="eyebrow">How it works</div>
+      <h2>Pick, clean, share. About a minute.</h2>
+      <p class="intro">Every clean copy is opened again and checked before you can share it. A copy that fails the check is deleted, never handed to you.</p>
+      <div class="steps">
+        <div class="step">
+          <figure><img src="{{ '/assets/screens/home.jpg' | relative_url }}" width="552" height="1200" alt="Untraceable home screen with Choose photos and videos, Per-buyer mark and Trace a leak" loading="lazy"></figure>
+          <h3><span class="num">1</span>Choose</h3>
+          <p>Pick photos and videos with the system picker or from Files. The app never asks for access to your library.</p>
+        </div>
+        <div class="step">
+          <figure><img src="{{ '/assets/screens/review.jpg' | relative_url }}" width="552" height="1200" alt="Ready to clean screen with three items and the per-buyer mark switched on" loading="lazy"></figure>
+          <h3><span class="num">2</span>Review</h3>
+          <p>Everything hidden is always removed. Add a per-buyer mark or device unlinking if you want them.</p>
+        </div>
+        <div class="step">
+          <figure><img src="{{ '/assets/screens/cleaning.jpg' | relative_url }}" width="552" height="1200" alt="Cleaning screen showing three of three items verified clean" loading="lazy"></figure>
+          <h3><span class="num">3</span>Clean and verify</h3>
+          <p>Each item is rebuilt on your iPhone, then re-opened and checked against what a clean file may contain.</p>
+        </div>
+        <div class="step">
+          <figure><img src="{{ '/assets/screens/results.jpg' | relative_url }}" width="552" height="1200" alt="Clean copy ready screen listing what was found and removed" loading="lazy"></figure>
+          <h3><span class="num">4</span>Share or save</h3>
+          <p>See exactly what was found and removed, then share the copy or save it to Photos. Originals are deleted from the app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band ink" id="pro">
+    <div class="wrap split">
+      <div>
+        <div class="eyebrow">Untraceable Pro</div>
+        <h2>Know who leaked it.</h2>
+        <p class="intro">Cleaning one item at a time is free, with every removal included. Pro adds tools for creators who send custom work to individual buyers.</p>
+        <ul class="list">
+          <li><span><strong>Per-buyer mark.</strong> A random code is tiled across the picture for one recipient. If a copy turns up somewhere it shouldn't, type the code to see who it was made for. The recipient list never leaves your iPhone.</span></li>
+          <li><span><strong>Device unlinking.</strong> Normalises size and softens sensor noise, which makes it harder to link two files to the same phone. It reduces that link; it can't remove it.</span></li>
+          <li><span><strong>Batch cleaning.</strong> Clean a whole set in one go, with progress for each item.</span></li>
+        </ul>
+        <p class="trust" style="color:#e6dbeb">Pro is an auto-renewing subscription, monthly or yearly, bought through the App Store. See the <a href="{{ '/terms/' | relative_url }}" style="color:#a9e0c6">Terms of Use</a>.</p>
+      </div>
+      <div class="shot">
+        <img src="{{ '/assets/screens/trace.jpg' | relative_url }}" width="552" height="1200" alt="Trace a leak screen with a field for the code seen on a leaked copy" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="limits">
+    <div class="wrap cards two">
+      <article class="card">
+        <div class="eyebrow">Honest limits</div>
+        <h3 style="margin-top:6px">What a clean copy can't hide</h3>
+        <ul class="list limits">
+          <li><span>It still looks like it was encoded on an iPhone, like millions of others.</span></li>
+          <li><span>Reverse-image search can still match the picture itself.</span></li>
+          <li><span>The link to your phone is reduced, not removed.</span></li>
+          <li><span>Re-encoding loses a tiny bit of quality.</span></li>
+          <li><span>A determined person can crop or cover a visible mark.</span></li>
+        </ul>
+      </article>
+      <article class="card teal">
+        <div class="eyebrow">You protect the rest</div>
+        <h3 style="margin-top:6px">Traces that live outside the file</h3>
+        <ul class="list limits">
+          <li><span><strong>The account you post from:</strong> reused usernames and synced contacts link profiles.</span></li>
+          <li><span><strong>Your IP address:</strong> sites see the network you upload from.</span></li>
+          <li><span><strong>Your AirDrop name:</strong> receivers see your device name.</span></li>
+          <li><span><strong>Posting one file twice:</strong> the same picture on two accounts can be matched.</span></li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="band white" id="privacy">
+    <div class="wrap cards">
+      <article class="card coral">
+        <h3>On your iPhone only</h3>
+        <p>Cleaning, checking and leak lookup all run on the device. The app has no server and no account.</p>
+      </article>
+      <article class="card sage">
+        <h3>Nothing kept</h3>
+        <p>Originals are deleted once their clean copy passes its check, and clean copies are deleted when you tap Done.</p>
+      </article>
+      <article class="card">
+        <h3>No tracking</h3>
+        <p>No analytics, ads or third-party SDKs. Read the <a href="{{ '/privacy/' | relative_url }}">privacy policy</a>.</p>
+      </article>
+    </div>
+    <div class="wrap actions" style="justify-content:center;margin-top:36px">
+      {{ store }}
+      <a class="button light" href="{{ '/support/' | relative_url }}">Get support</a>
+    </div>
+  </section>
+</main>

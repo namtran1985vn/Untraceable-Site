@@ -1,0 +1,30 @@
+# Jekyll config for GitHub Pages (project site).
+# Public address: https://namtran1985vn.github.io/Untraceable-Site/
+title: "Untraceable – for Creators"
+description: "Clean photos and videos before you post or send them. Location, device details, dates, names and extra tracks are removed on your iPhone."
+url: "https://namtran1985vn.github.io"
+baseurl: "/Untraceable-Site"
+markdown: kramdown
+permalink: pretty
+
+# Support contact. When support_email is empty the site points to GitHub issues instead.
+support_email: ""
+issues_url: "https://github.com/namtran1985vn/Untraceable-Site/issues"
+
+# The App Store page. Leave empty until the app is live; the pages then say "Coming soon".
+app_store_url: ""
+
+# Kept in the repository, not published on the site.
+exclude:
+  - README.md
+  - AppStoreLinks.md
+  - app-store
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-sitemap
