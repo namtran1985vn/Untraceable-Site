@@ -7,11 +7,11 @@ Stable URLs for App Store Connect, the app and customer messages.
 | Marketing URL | https://namtran1985vn.github.io/Untraceable-Site/ |
 | Support URL | https://namtran1985vn.github.io/Untraceable-Site/support/ |
 | Privacy Policy URL | https://namtran1985vn.github.io/Untraceable-Site/privacy/ |
-| Terms of Use | https://namtran1985vn.github.io/Untraceable-Site/terms/ |
-| Apple Standard EULA | https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ |
+| Terms of Use (in the app and listing) | https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ |
+| Our terms page (adds to the EULA) | https://namtran1985vn.github.io/Untraceable-Site/terms/ |
 | Support issues | https://github.com/namtran1985vn/Untraceable-Site/issues |
 
-The app links to Privacy and Terms from its paywall and Settings (`Untraceable/Domain/StoreProducts.swift`).
+The app links to Privacy, Terms of Use (Apple's Standard EULA) and Support from its paywall and Settings (`Untraceable/Domain/AppURLs.swift`).
 
 ## Before release
 

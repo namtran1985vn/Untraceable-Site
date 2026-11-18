@@ -21,7 +21,7 @@ Copy for App Store Connect. This folder is not published on the website.
 | Marketing URL | https://namtran1985vn.github.io/Untraceable-Site/ |
 | Support URL | https://namtran1985vn.github.io/Untraceable-Site/support/ |
 | Privacy Policy URL | https://namtran1985vn.github.io/Untraceable-Site/privacy/ |
-| Terms of Use (EULA) | Apple's Standard EULA in App Store Connect; our terms page adds to it: https://namtran1985vn.github.io/Untraceable-Site/terms/ |
+| Terms of Use (EULA) | Apple's Standard EULA (leave App Store Connect's custom EULA empty): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ |
 
 ## Promotional text (170)
 
@@ -69,7 +69,7 @@ Only clean content you own or have the right to share.
 SUBSCRIPTION
 Untraceable Pro is an auto-renewing subscription, monthly or yearly. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless auto-renew is turned off at least 24 hours before the end of the current period; renewal is charged within 24 hours before the period ends. Manage or cancel in your Apple Account settings. Any unused part of a free trial ends when you buy a subscription.
 
-Terms of Use: https://namtran1985vn.github.io/Untraceable-Site/terms/
+Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Privacy Policy: https://namtran1985vn.github.io/Untraceable-Site/privacy/
 
 ## Subscriptions
